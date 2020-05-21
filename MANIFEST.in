@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include taxtooter *.css
+recursive-include taxtooter *.csv
+recursive-include taxtooter *.html
+recursive-include taxtooter *.ico
+recursive-include taxtooter *.js
+recursive-include taxtooter *.json
+recursive-include taxtooter *.md
+recursive-include taxtooter *.png
+recursive-include taxtooter *.py
+recursive-include taxtooter *.svg
+recursive-include taxtooter *.txt
+recursive-exclude taxtooter *.pyc

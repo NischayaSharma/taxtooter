@@ -1,0 +1,43 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": null,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Query",
+  "enabled": 1,
+  "event": "New",
+  "is_standard": 0,
+  "message": "Test notif on new query",
+  "method": null,
+  "modified": "2020-05-21 22:20:43.017689",
+  "module": null,
+  "name": "Query Alert",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": "nischaya1703@gmail.com",
+    "condition": null,
+    "email_by_document_field": "",
+    "email_by_role": null,
+    "parent": "Query Alert",
+    "parentfield": "recipients",
+    "parenttype": "Notification"
+   }
+  ],
+  "sender": "Taxtooter",
+  "sender_email": "taxtooter@gmail.com",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "A new query has been posted",
+  "value_changed": null
+ }
+]
